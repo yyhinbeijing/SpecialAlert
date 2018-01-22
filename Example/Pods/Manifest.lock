@@ -1,0 +1,23 @@
+PODS:
+  - AlertWindow (0.1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - AlertWindow (from `../`)
+  - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  AlertWindow:
+    :path: ../
+
+SPEC CHECKSUMS:
+  AlertWindow: e18ff057aa66846a99df1025bb158dbe7ee3cfc5
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+
+PODFILE CHECKSUM: 776cdbc6f3faa707b41b93bb884f8508f68e43e3
+
+COCOAPODS: 1.4.0.beta.2

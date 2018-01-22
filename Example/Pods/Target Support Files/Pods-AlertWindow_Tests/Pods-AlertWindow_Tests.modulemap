@@ -1,0 +1,6 @@
+framework module Pods_AlertWindow_Tests {
+  umbrella header "Pods-AlertWindow_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
