@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AlertWindow_Example' do
+  pod 'AlertWindow', :path => '../'
+
+  target 'AlertWindow_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
